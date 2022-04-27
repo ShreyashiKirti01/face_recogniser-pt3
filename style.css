@@ -1,0 +1,74 @@
+body{
+background:url("download\ \(20\).jpg");
+background-repeat: no-repeat;
+color: azure;
+background-size: cover;
+}
+
+.heading{
+width: 70%;
+background-color: rgb(7, 38, 64);
+
+font-size: 22px;
+color: rgb(255, 255, 255);
+font-family: 'Comforter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+.name_of_people{
+    width: 40%;
+background-color: aliceblue;
+color: rgb(0, 0, 0);
+font-size: 18px;
+font-family: 'Comforter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+
+}
+
+#camera{
+width: 350px;
+height: 300px;
+border-style: dashed;
+border-width: 2.7px;
+}
+
+p{
+background-color: rgb(39, 8, 62);
+width: 75%;
+color: rgb(216, 231, 236);
+border-style:ridge;
+border-width: 2.9px;
+border-color: rgb(0, 23, 44);
+font-family: 'Comforter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+#result_object_name, #result_object_accuracy{
+    background-color: white;
+    width: 75%;
+color: rgb(140, 89, 105);
+
+font-size: 18px;
+font-family: 'Comforter', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+}
+
+img:hover{
+border-style:groove;
+border-width: 2.5px;
+border-color: rgb(215, 229, 242);
+border-radius: 20%;
+transform: scale(1.1);
+}
+
+img{
+transition: .4s all;
+}
